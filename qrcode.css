@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: o;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  justify-content: center;
+}
+.image_qrcode{
+  width: 250px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+
+.improve{
+  font-family: outfit;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  width: 220px;
+  text-align: center;
+  margin-left: 13px;
+  margin-bottom: 0;
+}
+
+.scan {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-family: outfit;
+  width: 230px;
+  text-align: center;
+  margin-left: 9px;
+  padding-bottom: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.qrcode {
+  display: grid;
+  justify-content: center;
+  box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+}
